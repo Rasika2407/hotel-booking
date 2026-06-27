@@ -9,7 +9,7 @@ const Testimonial = () => {
             <Title title="What Our Guests Say"
                 subTitle="Discover why discerning travelers consistently choose StayResort for their exclusive and luxurious accommodations around the world." />
 
-            <div className="flex flex-wrap items-center justify-center gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-7">
                 {testimonials.map((testimonial) => (
                     <div key={testimonial.id} className="bg-white p-6 rounded-xl shadow">
                         <div className="flex items-center gap-3">
